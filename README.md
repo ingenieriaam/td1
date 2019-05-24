@@ -9,5 +9,8 @@ Equipo docente:
 - Ing. Roberto Geronimo Simone
 - Ing. Fernando Gabriel Orge
 - Sr. Agustin Matias Ortiz
+___
 
-[binder](https://mybinder.org/v2/gh/ingenieriaam/td1/master?filepath=saturacion_ejemplo.ipynb)
+Ejemplo de saturación vs desborde en señal de audio:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ingenieriaam/td1/master?filepath=saturacion_ejemplo.ipynb)
