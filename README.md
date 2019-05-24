@@ -9,6 +9,8 @@ Equipo docente:
 - Ing. Roberto Geronimo Simone
 - Ing. Fernando Gabriel Orge
 - Sr. Agustin Matias Ortiz
+
+
 ___
 Ejemplo de saturación vs desborde en señal de audio:
 
