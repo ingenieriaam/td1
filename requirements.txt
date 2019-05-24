@@ -1,5 +1,5 @@
 numpy==1.16.*
 matplotlib==3.*
-wave
-os
-struct
+wave==*
+os==*
+struct==*
