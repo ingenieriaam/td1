@@ -1,0 +1,71 @@
+block simple_logic
+	ports
+	begin
+	input logic a, b,
+	output logic d, e
+	end
+
+	begin
+		c = a or b
+		d = (a and b) and (not a and not b)
+	end
+
+block some_ff
+	ports
+	begin
+		input logic a, b,
+		output logic c
+		output reg d
+	end
+
+	begin
+		reg e
+		c = e
+		e = a
+		d = a and b
+	end
+
+block selection
+	ports
+	…
+	if (a)
+		begin
+			if (b == c)
+			begin
+				d = h
+			end
+		else
+			begin
+			d = 0
+			end
+		end
+	else
+		begin
+		d = e
+		end
+end
+
+block selection
+	ports
+	…
+	select a:
+		case 1:
+			d = a
+		case 2:
+			d = 0
+		others:
+			d = b + c
+	end
+end
+
+block two_ff
+	ports
+	begin
+		input logic a
+		output reg y
+	end
+	
+	reg b
+	b = a
+	y = b
+end
